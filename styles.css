@@ -1,0 +1,60 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff;
+}
+
+header {
+    background-color: #333; /* Slightly lighter than the body background */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    margin: 20px;
+    background-color: #2d2d2d; /* Slightly darker than the body background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Increased shadow for a more pronounced effect */
+}
+
+#story {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #ccc; /* Lighter text color */
+}
+
+#choices {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #555; /* Slightly lighter than the body background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+button:hover {
+    background-color: #777; /* Slightly lighter on hover */
+}
+
+#image-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#story-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Increased shadow for consistency */
+}
